@@ -3,20 +3,33 @@ body {
   color: #fbfbfb;
   font-family: "space mono", monospace !important;
 }
+#root {
+  height: 100vh;
+}
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2em;
+  padding: 5vh;
   white-space: pre;
   font-size: 1em;
+  justify-content: space-between;
+  height: 90vh;
+}
+.App .wrap {
+  overflow-x: scroll;
+  max-width: 100%;
 }
 .App code {
-  margin: 2em;
+  cursor: pointer;
+  margin: 0;
   margin-top: 0;
   padding: 0;
   text-align: left;
-  font-size: 2em;
+  font-size: 2.5vw;
+}
+.App code:hover {
+  color: #35b270;
 }
 h3 {
   font-size: 2.5em;
@@ -59,4 +72,8 @@ input {
 input:focus {
   border-color: #35b270;
   outline: 0 none;
+}
+
+a {
+  color: #35b270;
 }
