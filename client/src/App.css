@@ -1,0 +1,62 @@
+body {
+  background-color: #35363c;
+  color: #fbfbfb;
+  font-family: "space mono", monospace !important;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+  white-space: pre;
+  font-size: 1em;
+}
+.App code {
+  margin: 2em;
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 2em;
+}
+h3 {
+  font-size: 2.5em;
+  margin: 1em;
+  padding: 0;
+  border: 0;
+  color: #35b270;
+}
+button {
+  border: 2px solid #35b270;
+  padding: 10px 25px;
+  font-family: 'space mono', monospace;
+  font-weight: bold;
+  font-size: 1em;
+  color: #35b270;
+  background: none;
+}
+button:hover {
+  background-color: #35b270;
+  color: #35363c;
+}
+button:active {
+  background-color: #35b270;
+  color: #35363c;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 2px solid #000;
+  font-family: "space mono", monospace;
+  background: none;
+  color: #eee;
+}
+input:focus {
+  border-color: #35b270;
+  outline: 0 none;
+}
